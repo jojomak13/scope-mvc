@@ -1,9 +1,12 @@
-
 <?php
 
 if(!defined('DS')){
     define('DS', DIRECTORY_SEPARATOR);
 }
+
+// IF your OS is windows set the value [1]
+// IF your OS is Linux or mac set the value [2]
+ defined('SERVER_TYPE') ? null : define('SERVER_TYPE', 1);
 
  // DataBase
  defined('DB_HOST_NAME')    ? null : define ('DB_HOST_NAME', 'localhost');
@@ -52,7 +55,7 @@ define('LANGUAGE_PATH', APP_PATH . DS . 'languages');
 defined('APP_SALT') ? null : define ('APP_SALT', '$2a$07$wOuAuWbJ67Oa4EgqO11GjG$');
 
  // Uplaod Save Path
- defined('UPLOAD_PATH') ? null : define('UPLOAD_PATH', APP_PATH . DS . '..' . DS . 'public' . DS . 'uploads');
+ defined('UPLOAD_PATH') ? null : define('UPLOAD_PATH', APP_PATH . DS . '..' . DS . 'public_html' . DS . 'uploads');
  defined('IMAGE_UPLOAD_PATH') ? null : define('IMAGE_UPLOAD_PATH', UPLOAD_PATH . DS . 'images');
  defined('DOCS_UPLOAD_PATH') ? null : define('DOCS_UPLOAD_PATH', UPLOAD_PATH . DS . 'docs');
 // Max upload file size
