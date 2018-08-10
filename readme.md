@@ -1,14 +1,15 @@
-# SCOPE MVC
+[![Build Status](https://travis-ci.org/jojomak13/scope-mvc.svg?branch=master)](https://travis-ci.org/jojomak13/scope-mvc.svg?branch=master)
 
+[![HitCount](http://hits.dwyl.io/jojomak13/jojomak13/scope-mvc.svg)](http://hits.dwyl.io/jojomak13/jojomak13/scope-mvc)
 
+# SCOPE MVC 
+=====================
  Scope-mvc: is mini php framework will help you to make your small website faster
- than make it native code, becouse it give you a prrety cool function to help you
+ than make it native code, becouse it give you a prrety cool function to help you 
  and easy database handler.
-
- > Notice: this the beta version if you see any bug
+ 
+ > Notice: this the beta version if you see any bug 
  share it to fix at the next version.
-
-for live preview [Click me](https://scope-mvc.000webhostapp.com/)
 
 # Features!
   - DataBase Handler
@@ -19,8 +20,8 @@ for live preview [Click me](https://scope-mvc.000webhostapp.com/)
 
 ### Installation
 
-Scope-mvc requires apachi server and mysql [pdo drivers]
-> recomended: install xampp, mamp, wamp
+Scope-mvc requires apachi server and mysql [pdo drivers] 
+> recomended: install xampp, mamp, wamp 
 
 Install the dependencies and devDependencies and start the server.
 For Xampp users
@@ -30,11 +31,9 @@ to make a virtual host open your browser and write this link
 ```
 http://localhost/dashboard/docs/configure-vhosts.html
 ```
-then follow the instructions
-but make sure when you add the path of your project
-in this case will be scope-mvc at [httpd-vhosts.conf]
-make it point to the public directory like that
-
+then follow the instructions 
+but make sure when you add the path of your project in this case will be scope-mvc
+at [httpd-vhosts.conf] make it point to the public directory like that
 ``` conf
 <VirtualHost *:80>
        DocumentRoot "C:/xampp/htdocs/php/scope-mvc/public_html"
@@ -44,13 +43,12 @@ make it point to the public directory like that
 
 ### 2. Set the data Base
 you will find the data base at the repository called [scope-mvc.sql]
-open your phpmyadmin if you use xampp to import the data base
+open your phpmyadmin if you use xampp to import the data base 
 
 ### 3. Set some options
 open scope mvc in your editor then open [app/config/config.php]
 
 if your OS  is windows let it [1] as default, and if you use mac or linux make it [2]
-
 ``` php
 // IF your OS is windows set the value [1]
 // IF your OS is Linux or mac set the value [2]
@@ -71,13 +69,15 @@ and it should be like this :-)
 
 ![alt text](https://raw.githubusercontent.com/jojomak13/scope-mvc/master/scope.png "Home page")
 
-After that click on [Dash Board]
+After that click on [Dash Board] 
 > the default admin data is
 Username: admin
 password: 123456
 
-when you logged successfully it will opened like that :)
+when you logged successfully it will apeer like that :)
 
 ![alt text](https://raw.githubusercontent.com/jojomak13/scope-mvc/master/dashborad.png)
 
 ---
+
+
