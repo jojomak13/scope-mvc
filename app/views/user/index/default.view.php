@@ -8,6 +8,7 @@
           <li><a href="/language/default/en"><?= @$text_en ?></a></li>
           <li><a href="/language/default/ar"><?= @$text_ar ?></a></li>
           <li><a href="/changepath"><?= @$text_dashboard ?></a></li>
+          <li><a href="https://jojomak13.github.io/scope-mvc/"><?= @$text_github ?></a></li>
         </ul>
     </div>
   </div>
