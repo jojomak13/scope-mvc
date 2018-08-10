@@ -3,7 +3,7 @@
 [![HitCount](http://hits.dwyl.io/jojomak13/jojomak13/scope-mvc.svg)](http://hits.dwyl.io/jojomak13/jojomak13/scope-mvc)
 
 # SCOPE MVC 
-=====================
+
  Scope-mvc: is mini php framework will help you to make your small website faster
  than make it native code, becouse it give you a prrety cool function to help you 
  and easy database handler.
